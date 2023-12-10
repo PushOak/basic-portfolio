@@ -1,0 +1,16 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 500px;
+}
+.car {
+  width: 100px;
+  transform: rotate(45deg);
+}
+.target {
+  width: 100px;
+}
+.bomb {
+  width: 100px;
+}

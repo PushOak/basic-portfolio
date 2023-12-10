@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/me.jpg" alt="me" class="logo"><span>Demitry Gavrisenko</span>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <h1><span>JavaScript</span> <br>Project</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="about-col-1">
+                    <img src="images/user.png" alt="user">
+                </div> -->
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus aperiam explicabo labore omnis
+                        totam ab eaque deleniti nobis voluptas? Porro libero magni enim adipisci neque, quisquam
+                        voluptatem iusto illum delectus similique corporis in omnis itaque ullam sed asperiores. In,
+                        consequuntur reiciendis. Ut nesciunt rerum quia tempore! Magni amet fugit cum dolore modi,
+                        cumque expedita officia obcaecati voluptatem, voluptatibus vero, sequi hic recusandae
+                        reprehenderit assumenda nulla consectetur iste itaque a ea ad totam excepturi culpa aliquid.
+                        Minus, quos explicabo nihil laudantium iusto voluptatem vel beatae nemo? Voluptas distinctio
+                        vero eligendi nam accusamus ea, veritatis alias.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Main Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Additional Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Web Applications</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>MERN stack</span><br>Mongo Express.js React and Node.js</li>
+                            <li><span>JavaScript</span><br>Proficient in JavaScript programming language</li>
+                            <li><span>HTML/CSS</span><br>Able to build the fundamentals of websites</li>
+                            <li><span>Typescript</span><br>Proficient in Typescript programming language</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-2023</span><br>Web Development course at HackerU</li>
+                            <li><span>2021-2022</span><br>Fullstack courses at Udemy</li>
+                            <li><span>2010-2011</span><br>Graphics Design at John Bryce</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet illum sapiente beatae et debitis
+                        quas recusandae voluptate perspiciatis expedita rem, cumque fuga voluptatum, placeat corrupti
+                        inventore, tempore dolor. Assumenda, inventore?</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet illum sapiente beatae et debitis
+                        quas recusandae voluptate perspiciatis expedita rem, cumque fuga voluptatum, placeat corrupti
+                        inventore, tempore dolor. Assumenda, inventore?</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet illum sapiente beatae et debitis
+                        quas recusandae voluptate perspiciatis expedita rem, cumque fuga voluptatum, placeat corrupti
+                        inventore, tempore dolor. Assumenda, inventore?</p>
+                    <!-- <a href="#">learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Portfolio</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/clock.png" alt="">
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>This app shows you the exact Jerusalem Time
+                        </p>
+                        <a href="./Projects/clock/clock.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/clock.zip" download><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/calculator.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Allows you to do basic calculations
+                        </p>
+                        <a href="./Projects/calculator/calculator.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/calculator.zip" download><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/todo.png" alt="">
+                    <div class="layer">
+                        <h3>To do list</h3>
+                        <p>Add and delete tasks on your to do list
+                        </p>
+                        <a href="./Projects/todo/todo.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/todo.zip" download><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/calendar.png" alt="">
+                    <div class="layer">
+                        <h3>Calendar</h3>
+                        <p>A calendar
+                        </p>
+                        <a href="./Projects/calendar/calendar.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/calendar.zip" download><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/countries.png" alt="">
+                    <div class="layer">
+                        <h3>Countries</h3>
+                        <p>View basic information on any country in the world
+                        </p>
+                        <a href="./Projects/countries/countries.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/countries.zip" download><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/weather.png" alt="">
+                    <div class="layer">
+                        <h3>Weather</h3>
+                        <p>Shows the weather of any city in the world
+                        </p>
+                        <a href="./Projects/weather/weather.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/weather.zip" download><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/crypto.png" alt="">
+                    <div class="layer">
+                        <h3>Crypto</h3>
+                        <p>rovides information on cryptocurrency
+                        </p>
+                        <a href="./Projects/crypto/public/crypto.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/crypto.zip"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/cars.png" alt="">
+                    <div class="layer">
+                        <h3>Car Game</h3>
+                        <p>A fun little car game
+                        </p>
+                        <a href="./Projects/cars/cars.html"><i class="fas fa-eye"></i></a>
+                        <a href="./downloadProjects/cars.zip"><i class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fas fa-paper-plane"></i> acousticvistas@gmail.com</p>
+                    <p> <i class="fas fa-phone-square-alt"></i> +972503336619</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://il.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    
+                </div>
+
+                <div class="contact-right">
+                    <form id="form" class="form-control" method="GET">
+                        <input type="text" name="Name" placeholder="Your Name" id="name">
+                        <input type="email" name="email" placeholder="Your Email" id="email">
+                        <textarea name="Message" cols="10" rows="6" placeholder="Your Message" id="message"></textarea>
+                        <div id="error"></div>
+                        <button type="submit" class="btn btn-2 submit-btn">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <button class="top">&uarr;</button>
+
+        <div class="copyright">
+            <p>Copyright @ Demitry. All Rights Reserved</p>
+        </div>
+    </div>
+
+    <script src="./script/script.js"></script>
+
+</body>
+
+</html>
